@@ -1,109 +1,106 @@
 body {
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    background: black;
-    width:100vw;
-    height:100vh;
-    color:white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  color: white;
 }
 
 #candy {
-    position: absolute;
-    top: 5px;
-    left: calc(100% - 75px);
+  position: absolute;
+  top: 5px;
+  left: calc(100% - 75px);
 }
 
 #candy p {
-    display:inline;
-    vertical-align:super;
-    font-size:35px;
+  display: inline;
+  vertical-align: super;
+  font-size: 35px;
 }
 #pumpkins {
-    position: absolute;
-    top: 40px;
-    left: calc(100% - 75px);
+  position: absolute;
+  top: 40px;
+  left: calc(100% - 75px);
 }
 
 #pumpkins p {
-    display:inline;
-    vertical-align:super;
-    font-size: 35px;
+  display: inline;
+  vertical-align: super;
+  font-size: 35px;
 }
 
 #big {
-    width: 300vw;
-    height: 100vh;
-    position: absolute;
-    transition:500ms;
-    transition-timing-function:cubic-bezier(0.39, 0.575, 0.565, 1);
+  width: 300vw;
+  height: 100vh;
+  position: absolute;
+  transition: 500ms;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .container {
-
-    position:absolute;
-    width:100vw;
-    height:100vh;
-    transition:300ms;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  transition: 300ms;
+  overflow:hidden;
 }
 
 .left {
-    left:-100vw;
+  left: -100vw;
 }
-
 
 .right {
-    left:100vw;
+  left: 100vw;
 }
 #click-container {
-    text-align: center;
-    vertical-align: middle;
-    line-height: 100vh;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100vh;
 }
 
 #click {
-    width: 20vw;
-    height: 20vw;
-    border-radius:50%;
-    border:none;
-    background: #a03e13;
-    color:white;
-    transition: 100ms ease-in-out;
-    outline:none;
-    overflow: hidden;
-    font-family:serif;
-    font-size:large;
-
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  border: none;
+  background: #a03e13;
+  color: white;
+  transition: 100ms ease-in-out;
+  outline: none;
+  overflow: hidden;
+  font-family: serif;
+  font-size: large;
 }
 #click:active {
-    width: 20vw;
-    height: 20vw;
-    border-radius:50%;
-    border:none;
-    background: #ad461a;
-    outline:none;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  border: none;
+  background: #ad461a;
+  outline: none;
 }
 
 .button {
-    z-index:100;
-    position:absolute;
-    top:50%;
-    height:3em; 
-    font-family:sans-serif;
-    font-weight:bold;
-    cursor:pointer;
-    opacity:1;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  height: 3em;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 1;
 }
-.hidden{
-    cursor:default;
-    opacity:0;
-    transition:600ms;
+.hidden {
+  cursor: default;
+  opacity: 0;
+  transition: 600ms;
 }
 #button-left {
-
-    left:4vw;
+  left: 4vw;
 }
 
 #button-right {
-    right:4vw;
+  right: 4vw;
 }
